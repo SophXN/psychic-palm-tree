@@ -18,4 +18,12 @@ const search = (nums, target) => {
   return -1;
 };
 
-export default search;
+// export default search;
+
+const testSearch = () => {
+  const nums = [-1, 0, 3, 5, 9, 12];
+  const target = 9;
+  return search(nums, target);
+};
+
+console.log(testSearch());
