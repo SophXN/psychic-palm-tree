@@ -1,3 +1,4 @@
+// eslint-disable-next-line max-len
 // Given an integer numsay nums sorted in non-decreasing order, return an numsay of the squares of each number sorted in increasing order.
 
 const sortedSquares = (nums) => {
