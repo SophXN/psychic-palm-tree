@@ -1,6 +1,7 @@
 // Given an array, rotate the array to the right by k steps, where k is non-negative.
 
 const rotate = function (nums, k) {
+    let 
   for (i = 0; i < k; i++) {
     const lastItem = nums.pop();
     nums.unshift(lastItem);
