@@ -19,5 +19,3 @@ const reverseString = (s) => {
 };
 
 console.log(reverseString(["h", "e", "l", "l", "o"]));
-
-// start with a pointer at the left and right end and switch the items
