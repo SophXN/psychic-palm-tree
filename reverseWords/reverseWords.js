@@ -10,7 +10,7 @@ Note that s may contain leading or trailing spaces or multiple spaces between tw
 */
 
 const reverseWords = function (s) {
-  const arrStr = s.split(' ');
+  const arrStr = s.split(" ");
   const revArr = [];
 
   for (let i = arrStr.length - 1; i >= 0; i--) {
@@ -21,7 +21,10 @@ const reverseWords = function (s) {
     }
   }
 
-  const revString = revArr.join(' ');
+  const revString = revArr.join(" ");
 
   return revString;
 };
+
+const s = "Let's take LeetCode contest";
+console.log(reverseWords(s));
