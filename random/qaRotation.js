@@ -48,7 +48,5 @@ console.log(
     "Luke",
     "Mandy",
     "Maryanne",
-    "Nick",
-    "Guorong",
   ])
 );
