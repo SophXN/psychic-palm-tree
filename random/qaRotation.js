@@ -4,7 +4,7 @@
 
 const qaRotation = (weeks, eng) => {
   // starting date
-  const myDate = new Date("2022-10-26");
+  const myDate = new Date("2023-01-18");
   const result = {};
   let currentEng = 0;
 
@@ -38,15 +38,15 @@ const qaRotation = (weeks, eng) => {
 };
 
 console.log(
-  qaRotation(6, [
-    "David",
-    "Marco",
-    "Sophie",
-    "Stephanie",
-    "James",
-    "Kelly",
+  qaRotation(10, [
     "Luke",
     "Mandy",
     "Maryanne",
+    "Nick",
+    "Jackie",
+    "Marco",
+    "Stephanie",
+    "James",
+    "Kelly",
   ])
 );
