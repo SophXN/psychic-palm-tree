@@ -32,3 +32,18 @@ function maxSubArray(nums: number[]): number {
 console.log(maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]))
 console.log(maxSubArray([5, 4, -1, 7, 8]))
 console.log(maxSubArray([-2, 1]))
+
+// alt solution 
+function maxSubArraySolution(nums: number[]): number {
+    let sum = nums[0]; // current sum
+    let max = nums[0]; // max sum
+    let ptr = 1; // pointer
+
+    while (ptr < nums.length) {
+        sum = Math.max(nums[ptr], sum + nums[ptr]);
+        max = Math.max(max, sum);
+        ptr += 1;
+    }
+
+    return max;
+};
